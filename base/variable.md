@@ -3,17 +3,17 @@
  思考
 -----
 ```javascript
-      console.log(test); // undefined
-      var test = true;
-      console.log(test); // true
+console.log(test); // undefined
+var test = true;
+console.log(test); // true
 ```
 ##### 相当于
 
 ```javascript
-    var test;
-    console.log(test); // undefined
-    test = true;
-    console.log(test); // true
+var test;
+console.log(test); // undefined
+test = true;
+console.log(test); // true
 ```
 
 原因
